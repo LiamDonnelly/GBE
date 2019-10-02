@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{d8718be9-a425-46cb-9b61-3a64019d1463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{dabbf393-6559-4034-ae55-93a0ad53a417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU">
+      <UniqueIdentifier>{207abcdf-ad49-4848-b893-d7f9dec6f8ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{66e0d8fa-c74c-4e4a-80da-06cb64366185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Emulator">
+      <UniqueIdentifier>{77175532-8124-4065-9752-bedef332a033}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicSettings.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBoy.cpp">
+      <Filter>Emulator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphicsBase.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicSettings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBoy.h">
+      <Filter>Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="EmulatorBase.h">
+      <Filter>Emulator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
