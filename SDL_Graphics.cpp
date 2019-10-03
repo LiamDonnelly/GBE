@@ -42,9 +42,9 @@ int SDL_Graphics::Init(GraphicSettings* settings)
 
 void SDL_Graphics::Draw() 
 {
-	SDL_
+	
 }
-S
+
 void SDL_Graphics::CleanUp()
 {
 	SDL_DestroyWindow(window);

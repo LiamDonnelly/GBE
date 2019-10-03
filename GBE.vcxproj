@@ -133,6 +133,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GameBoy.cpp" />
+    <ClCompile Include="GameBoyCPU.cpp" />
+    <ClCompile Include="GameBoyMemory.cpp" />
     <ClCompile Include="GraphicSettings.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SDL_Graphics.cpp" />
@@ -140,6 +142,8 @@
   <ItemGroup>
     <ClInclude Include="EmulatorBase.h" />
     <ClInclude Include="GameBoy.h" />
+    <ClInclude Include="GameBoyCPU.h" />
+    <ClInclude Include="GameBoyMemory.h" />
     <ClInclude Include="GraphicsBase.h" />
     <ClInclude Include="GraphicSettings.h" />
     <ClInclude Include="SDL_Graphics.h" />

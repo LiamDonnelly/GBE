@@ -38,6 +38,12 @@
     <ClCompile Include="GameBoy.cpp">
       <Filter>Emulator</Filter>
     </ClCompile>
+    <ClCompile Include="GameBoyCPU.cpp">
+      <Filter>CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBoyMemory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraphicsBase.h">
@@ -54,6 +60,12 @@
     </ClInclude>
     <ClInclude Include="EmulatorBase.h">
       <Filter>Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBoyCPU.h">
+      <Filter>CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBoyMemory.h">
+      <Filter>Memory</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
