@@ -12,7 +12,7 @@ public:
 	~SDL_Graphics();
 
 private:
-	SDL_Window* window = nullptr;
-	SDL_Surface* screenSurface = nullptr;
+	SDL_Window* m_window = nullptr;
+	SDL_Surface* m_screenSurface = nullptr;
 };
 
